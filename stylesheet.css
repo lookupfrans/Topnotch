@@ -139,9 +139,10 @@
   }
 
   .message-wrapper h1 {
-  padding-top: 80px;
-  padding-bottom: 100px;
-  color: #5f5d60;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    color: #5f5d60;
+    opacity: 0.8;
   }
   
   h3 {
