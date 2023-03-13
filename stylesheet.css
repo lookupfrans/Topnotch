@@ -82,6 +82,7 @@
     background-size: cover;
     color: white;
     text-align: center;
+    opacity: 0.8;
   }
 
   .content-wrapper {
@@ -93,12 +94,13 @@
   }
 
   .content-wrapper h2 {
-  padding-bottom: 50px;
+    padding-bottom: 50px;
+    opacity: 0.8;
   }
 
   .list-wrapper {
-  float: left;
-  width: 25%;
+    float: left;
+    width: 25%;
   }
 
   .list-icon p {
@@ -133,6 +135,7 @@
   .message-wrapper {
     text-align: center;
     padding-bottom: 0px;
+    opacity: 0.8;
   }
 
   .message-wrapper h1 {
