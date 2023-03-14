@@ -21,7 +21,7 @@
     font-size: 40px;
     margin-top: 5px;
     padding-top: 25px;
-    padding-left: 25px;
+    padding-left: 35px;
     background-color: none;
     margin-left: 0xpx;
     float: left;
@@ -32,19 +32,18 @@
   li {
     float: left;
     display: block;
-    margin-left: 150px;
-    padding-right: 1px;
-    margin-top: 30px;
-    padding-left: 150px;
+    margin-top: 0px;
+    padding-left: 200px;
     padding-top: 30px;
     opacity: 0.8;
-    margin: 0px;
     text-decoration: none;
+    cursor: pointer;
   }
   
   li:hover {
     margin: 0px;
     text-decoration: underline;
+    padding-bottom: 100px;
   }
 
   .log-in {
@@ -53,9 +52,9 @@
     color: white;
     opacity: 0.8;
     font-weight: bold;
-    margin-right: 120px;
-    margin-top: 30px;
-    margin-bottom: 430px;
+    margin-right: 60px;
+    margin-left: 40px;
+    margin-top: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -67,6 +66,7 @@
     position: blocK;
     cursor: pointer;
     opacity: 1;
+    background-color: grey
   }
 
   .container {
@@ -85,10 +85,14 @@
     opacity: 0.8;
   }
 
+  .child {
+    text-align: center;
+  }
+
   .content-wrapper {
-    background-color: #f7f7f
-    height: 00px;
-    padding-bottom: 70px;
+    background-color: #f7f7f;
+    height: 0px;
+    padding-bottom: 150px;
     left: 20px; 
     text-align: center;
   }
@@ -96,40 +100,53 @@
   .content-wrapper h2 {
     padding-bottom: 50px;
     opacity: 0.8;
+    border-width: thick;
+    border-bottom: red;
+    opacity: 0.8;
   }
 
   .list-wrapper {
     float: left;
     width: 25%;
+    background-color: brown;
+    opacity: 0.7;
+    height: 450px;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
   }
 
   .list-icon p {
-    position: absolute;
-    top: 44%;
+    position: relative;
     width: 100%;
     color: white;
+    top : 40px;
+    padding-left: 140px;
+    padding-left: 40px;
+  }
+
+  .list-icon {
+    position: relative;
   }
 
   img {
-   width: 200px;
-   height: 200px;
-   justify-content: center;
-   left: 500px
-   float: left;
-   margin-left : 70px;
+    padding-top: 50px;
+    padding-right: 40px;
+    width: 70%;
+    height: 250px;
+    justify-content: center;
+    float: left;
+    margin-left : 70px;
+    position: relative;
   }
 
-  .text-content p {
-    text-align: center;
-    padding-bottom: 50px;
-  }
-  
-  .text-content {
-    width: 80%;
+  p {
     display: inline-block;
-    margin-top: 20px;
-    font-size: 15px;
-    color: #b3aeb5;
+    margin-left: 75px;
+    width: 60%;
+  }
+
+  .list-icon p {
+    margin-right: 50px;
   }
   
   .message-wrapper {
@@ -139,10 +156,7 @@
   }
 
   .message-wrapper h1 {
-    padding-top: 80px;
-    padding-bottom: 100px;
-    color: #5f5d60;
-    opacity: 0.8;
+    margin-top: 90px;
   }
   
   h3 {
@@ -151,7 +165,11 @@
   }
 
   .btn {
-    padding-bottom: 50px;
+    background-color: brown;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: 20px;
     display: inline-bloc;
     height: 25px;
@@ -164,9 +182,16 @@
     border-bottom: 1px solid #eee;
     padding-bottom: 80px;
     text-align: center;
+    font-weight: bold;
+    opacity: 0.8;
+  }
+  
+  .word {
+    font-size: 50px;
+    padding-top: 90px;
   }
 
-  .message:active {
+  .message:act {
     position: absolute;
     top: 7px;
     bottom: 7px;
@@ -175,16 +200,12 @@
 
   .btn:hover {
     background-color: brown;
-    height: 25px;
-    padding-bottom: 20px;
-    padding-top: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
     color:white;
     opacity: 0.8;
     font-weight: bold;
     position: block;
     cursor: pointer;
+    background-color: grey;
   }
 
   a {
@@ -192,20 +213,18 @@
     color: white;
     opacity: 0.8;
     text-decoration: none;
-    padding-right: 150px;
+    direction: none;
   }
 
   footer {
     float: left;
     background-color: rgba(34, 49, 52, 0.9);
     width: 100%;
-    font-size: 40px;
-    height: 100%;
+    height: 90px;
+    float: left;
+    padding-right: 150px;
   }
-
-  footer p {
-    bottom: 90px;
+  .footer-logo {
     opacity: 0.8;
-    font-size: 25px;
-    padding-left: 30px;
- }
+    font-size: 40px;
+  }
